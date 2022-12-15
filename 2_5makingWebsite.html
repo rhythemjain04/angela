@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="this is jut for a practice website, 2_5th video angela yu">
+    <title>onlyHTMLsite</title>
+</head>
+
+<body>
+<img src="https://media1.giphy.com/media/jb3YXUSm1P1FuuELYi/giphy.gif"
+     alt="if image is not displayed then this message showsup" style="height:100px;width:100px">
+<br>  <!-- breaking the line -->
+<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_link">
+    <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/smiling-face-with-smiling-eyes_1f60a.png" alt="HTML tutorial"
+         style="width:42px;height:42px;">
+</a>      <!-- this image is used as the text to redirect to the image-->
+
+<!-- height="500" width="500">     height and width to describe the size of the image -->
+<table cellspacing="12">
+    <tr>
+        <td>
+            <img src="IMG_20211018_081626_752-02-01-01.jpeg" alt="my profile picture" style="height:150px;width:150px">
+        </td>
+        <td>
+            <h1>RHYTHEM JAIN</h1>
+            <p><em>My name is <strong>Rhythem jain</strong></em><br>
+                and i am studying here in
+                <a href="https://vit.ac.in/" target="_blank">VIT,vellore.</a></p>
+            <center>VIT,vellore</center>  <!-- Here CSS is now used to change the alignment of the text instead of <center> -->
+
+        </td>
+    </tr>
+</table>
+<hr>
+<h3><em>Study and Background</em></h3>
+<p>I have completed my schooling from <strong><a href="https://www.facebook.com/people/Alwar-Public-School/100063674273478/">
+    Alwar Public School</a></strong>.
+    <br>And now the location will be displayed here,in form of a link.</p>
+<ol start="4">
+    <li>School
+        <ol type="i">
+            <!-- Here the different types of ol can be used by we use CSS "list-style-type" instead -->
+            <li>Alwar</li>
+            <!-- start attribute can be used to start ol form a particular position <ol start ="4"> -->
+            <ul>
+                <li>ALW</li>
+                <li>AR</li>
+            </ul>
+            <li>Public</li>
+            <li>School</li>
+        </ol>
+    </li>
+    <li>Collage
+        <ul>
+            <li>Vellore</li>
+            <li>Institute</li>
+            <li>of Technology</li>
+        </ul>
+    </li>
+</ol>
+<!-- to create a send mail option to rhythem.jain04@gmail.com-->
+<p>
+    <a href="mailto:rhythem.jain04@gmail.com">       <!-- this is the image used as a link to send email to my e-mail ID -->
+        <img src="data:image/png;base64,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"
+             alt="email" style="float:right;height:84px;width:84px">
+    </a>
+</p>
+<br>
+<!-- adding the table into the site-->
+<p>
+    <a href="3_MakingTable.html" target="_blank">
+        <img src="https://www.ikea.com/in/en/images/products/lisabo-table-black__0737106_pe740884_s5.jpg?f=s"
+             style="float:left;height:42px;width:42px"> table link
+    </a>
+    <br>
+    <a href="contactme.html">click crow</a>
+</p>
+<p>
+
+    <a href="3_MakingForm.html">Fill the Form</a>
+</p>
+
+</body>
+</html>
